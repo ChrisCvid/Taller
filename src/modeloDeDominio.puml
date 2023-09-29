@@ -1,0 +1,67 @@
+@startuml
+
+
+
+entity orden{
+ totalPedido
+ trabajador
+ numeroMesa
+
+}
+
+
+ entity cliente {
+  numero
+  posicion
+  mesa
+  nombre
+  edad
+
+}
+
+entity inventario {
+ nombreProducto
+ precio
+ categoria
+ stock
+}
+
+entity restaurante{
+ nombre
+
+}
+
+entity producto {
+ nombreProducto
+ precio
+ categoria
+ stock
+
+}
+
+entity trabajador {
+ nombre
+ edad
+ tipoContrato
+ fechaContratacion
+}
+
+
+entity mesa{
+ numero
+ posicion
+ disponibilidad
+}
+
+orden "1.." -- "1" restaurante: recibe <
+orden "1.." -- "1.." trabajador: toma <
+orden "1.." -- "1" cliente: genera <
+orden "1.." -- "1" mesa: tiene <
+orden "1" -- "1.." producto: contiene <
+restaurante "1" -- "1.." trabajador: tiene >
+restaurante "1" -- "1.." mesa: tiene >
+cliente "1" -- "1" mesa: tiene <
+producto "1..*" -- "1" inventario: contiene >
+
+}
+@enduml
