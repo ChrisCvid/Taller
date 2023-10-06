@@ -1,0 +1,166 @@
+@startuml
+
+         left to right direction
+
+         interface Sistema{
+         +coordinarMesas(): void
+         +gestionarInventario(): void
+         +administrarTrabajadores(): void
+         +procesarOrden(): void
+
+         }
+
+         class Orden{
+          -totalPedido: int
+          -trabajador: String
+          -numeroMesa: int
+          -Producto[] ListaPedido
+          -max: int
+          -actual: int
+          --
+          +Orden()
+          +getTotalPedido(): int
+          +getTrabajador(): String
+          +getNumeroMesa(): int
+          +getMax(): int
+          +getActual(): int
+          +calcularTotal(): int
+         }
+
+
+          class Cliente {
+          -numero: int
+          -mesa: int
+          -nombre: String
+          -edad: int
+          --
+          +Cliente()
+          +getNumero(): int
+          +getNombre(): String
+          +getMesa(): int
+          +getEdad(): int
+         }
+
+         class Inventario {
+          -Producto[] inventario
+          -cantMaxima: int
+          -cantActual: int
+          --
+          +Inventario()
+          +getCantMaxima(): int
+          +getCantActual(): int
+          +setCantMaxima(): int
+          +setCantActual(): int
+          +ingresarProducto(Producto producto)
+          +actualizarProducto(Producto producto)
+          +eliminarProducto(Producto producto)
+         }
+
+         class SistemaImpl{
+          +Inventario inventario
+          +ListaOrdenes listaOrdenes
+          +ListaMesas listaMesas
+          +ListaTrabajador listaTrabajador
+          --
+          +SistemaImpl()
+
+         }
+
+         class Producto {
+          -nombreProducto: String
+          -precio: int
+          -categoria: String
+          -stock: int
+          --
+          +producto()
+          +getNombreProduto(): String
+          +getPrecio(): int
+          +getCategoria(): String
+          +getStock(): int
+          +setNombreProduto(): String
+          +setPrecio(): int
+          +setCategoria(): String
+          +setStock(): int
+         }
+
+         class Trabajador {
+          -nombre: String
+          -edad: int
+          -tipoContrato: String
+          -fechaContratacion: String
+          --
+          +Trabajador()
+          +getEdad(): int
+          +getTipoContrato(): String
+          +getFechaContratacion(): String
+          +setEdad(): int
+          +setTipoContrato(): String
+          +setFechaContratacion(): String
+         }
+
+
+         class Mesa{
+          -numero: int
+          -disponibilidad: boolean
+          -cliente: String
+          --
+          +Mesa()
+          +getNumero(): int
+          +getDisponibilidad(): boolean
+          +setNumero(): int
+          +setDisponibilidad(): boolean
+         }
+
+         class ListaOrdenes{
+          -Orden[] ListaOrdenes
+          -max: int
+          -actual: int
+          --
+          +ListaOrdenes()
+          +getMax(): int
+          +getActual(): int
+          +generarResumen(): void
+          +buscarOrden(): int
+          +pedirCuenta(): boolean
+         }
+
+         class ListaMesas{
+          -Mesas[] ListaMesas
+          -max: int
+          -actual: int
+          --
+          +ListaMesas():
+          +getMax(): int
+          +getActual(): int
+          +getCliente(): String
+          +setActual(): int
+          +setCliente(): String
+          +buscarMesa(): void
+         }
+
+         class ListaTrabajador{
+          -trabajador[] ListaTrabajador
+          -max: int
+          -actual: int
+          --
+          +ListaTrabajador()
+          +getMax(): int
+          +getActual(): int
+          +renovar(): boolean
+          +eliminarTrabajador(): void
+          +cambiarContrato(): String
+         }
+
+         ListaMesas "1..*" *-- "1" Mesa: contiene
+         ListaTrabajador "1..*" *-- Trabajador: contiene
+         Inventario "1..*" *-- Producto: contiene
+         ListaOrdenes "1..*" *-- "1" Orden: contiene
+         Mesa "1" -- "1" Cliente: tiene >
+         Orden "1" -- "1" Mesa: pide <
+         SistemaImpl "1" -- ListaOrdenes: posee <
+         SistemaImpl "1" -- "1" ListaTrabajador: posee <
+         SistemaImpl "1" -- "1" ListaMesas: posee <
+         SistemaImpl "1" -- "1" Inventario: posee <
+         Sistema "1" <|.. "1" SistemaImpl: implementa
+         }
+         @enduml
