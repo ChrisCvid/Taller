@@ -4,8 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5895e930-0544-4153-9221-ba283a44ffc2" name="Changes" comment="modelo de dominio">
+    <list default="true" id="5895e930-0544-4153-9221-ba283a44ffc2" name="Changes" comment="modelo de clases">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/stdlib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases/Inventario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases/ListaMesas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases/ListaOrdenes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases/ListaTrabajador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases/Mesa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases/Orden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases/Trabajador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Taller-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Taller-1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,15 +30,30 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="UML Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ChrisCvid&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4989e82b-79e8-4d10-8f3e-e3570f756408" />
+        <option name="url" value="https://github.com/ChrisCvid/Taller.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2W5M30hwPh8P4IOBJYiCZKHzSKQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -35,7 +64,14 @@
   "keyToString": {
     "DefaultPlantUmlFileTemplate": "UML Class",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-18",
+    "last_opened_file_path": "C:/Users/chris/Downloads/stdlib.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -55,11 +91,20 @@
       <option name="project" value="LOCAL" />
       <updated>1696018047243</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="modelo de clases">
+      <option name="closed" value="true" />
+      <created>1696629870560</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696629870560</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modelo de dominio" />
-    <option name="LAST_COMMIT_MESSAGE" value="modelo de dominio" />
+    <MESSAGE value="modelo de clases" />
+    <option name="LAST_COMMIT_MESSAGE" value="modelo de clases" />
   </component>
 </project>
