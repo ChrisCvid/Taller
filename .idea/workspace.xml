@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5895e930-0544-4153-9221-ba283a44ffc2" name="Changes" comment="modelo de clases">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/stdlib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/Inventario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/ListaMesas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/ListaOrdenes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/ListaTrabajador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/Mesa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/Orden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/Trabajador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taller-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Taller-1.iml" afterDir="false" />
+    <list default="true" id="5895e930-0544-4153-9221-ba283a44ffc2" name="Changes" comment="Model">
+      <change beforePath="$PROJECT_DIR$/src/Clases/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clases/Inventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Inventario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clases/ListaMesas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ListaMesas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clases/ListaOrdenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ListaOrdenes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clases/ListaTrabajador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ListaTrabajador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clases/Mesa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Mesa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clases/Orden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Orden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clases/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clases/Trabajador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Trabajador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +46,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -67,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "corretto-18",
-    "last_opened_file_path": "C:/Users/chris/Downloads/stdlib.jar",
+    "last_opened_file_path": "C:/Users/gabri/Desktop/stdlib.jar",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -102,9 +100,21 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modelo de dominio" />
     <MESSAGE value="modelo de clases" />
-    <option name="LAST_COMMIT_MESSAGE" value="modelo de clases" />
+    <MESSAGE value="Model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Model" />
   </component>
 </project>

@@ -1,5 +1,5 @@
-package Clases;
-import Clases.Trabajador;
+package Model;
+
 public class ListaTrabajador {
     Trabajador[] listaTrabajador;
 int max;

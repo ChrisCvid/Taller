@@ -1,5 +1,4 @@
-package Clases;
-import Clases.Orden;
+package Model;
 
 public class ListaOrdenes {
     Orden[] ListaOrdenes;

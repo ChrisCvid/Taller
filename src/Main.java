@@ -1,5 +1,5 @@
 import edu.princeton.cs.stdlib.*;
-import Clases.*;
+
 public class Main {
     public static void main(String[] args) {
       StdOut.print (

@@ -1,5 +1,5 @@
-package Clases;
-import Clases.Mesa;
+package Model;
+
 public class ListaMesas {
  Mesa[] listaMesas;
  int max;

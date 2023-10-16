@@ -1,4 +1,4 @@
-package Clases;
+package Model;
 public class Cliente {
     private int numero;
     private int edad;
