@@ -1,32 +1,15 @@
-package Model;
+package Program.Model;
 
-public class Trabajador {
-    String nombre;
-    int edad;
+public class Trabajador extends Persona {
+
     String tipoContrato;
     String fechaContratacion;
 
-    public Trabajador(String nombre , int edad , String tipoContrato , String fechaContratacion) {
-        this.nombre = nombre;
-        this.edad = edad;
+
+    public Trabajador(String nombre, int edad, String tipoContrato, String fechaContratacion) {
+        super(nombre, edad);
         this.tipoContrato = tipoContrato;
         this.fechaContratacion = fechaContratacion;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public int getEdad() {
-        return edad;
-    }
-
-    public void setEdad(int edad) {
-        this.edad = edad;
     }
 
     public String getTipoContrato() {

@@ -1,4 +1,4 @@
-package Model;
+package Program.Model;
 
 public class ListaOrdenes {
     Orden[] ListaOrdenes;

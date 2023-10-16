@@ -104,7 +104,7 @@
           -disponibilidad: boolean
           -cliente: String
           --
-          +Mesa()
+          +Mesa(numero: int, disponibilidad: boolean, cliente: String)
           +getNumero(): int
           +getDisponibilidad(): boolean
           +setNumero(): int
@@ -116,7 +116,7 @@
           -max: int
           -actual: int
           --
-          +ListaOrdenes()
+          +ListaOrdenes(max: int)
           +getMax(): int
           +getActual(): int
           +generarResumen(): void
@@ -129,7 +129,7 @@
           -max: int
           -actual: int
           --
-          +ListaMesas():
+          +ListaMesas(max: int):
           +getMax(): int
           +getActual(): int
           +getCliente(): String
@@ -143,7 +143,7 @@
           -max: int
           -actual: int
           --
-          +ListaTrabajador()
+          +ListaTrabajador(max: int)
           +getMax(): int
           +getActual(): int
           +renovar(): boolean
@@ -151,16 +151,30 @@
           +cambiarContrato(): String
          }
 
+         abstract class Persona{
+          -nombre: String
+          -edad: int
+          --
+          +Persona(nombre: String, edad: String)
+          +getNombre(): String
+          +getEdad(): String
+          +setNombre(): String
+          +setEdad(): String
+
+         }
+
          ListaMesas "1..*" *-- "1" Mesa: contiene
-         ListaTrabajador "1..*" *-- Trabajador: contiene
+         ListaTrabajador "1..*" *-- Persona: contiene
          Inventario "1..*" *-- Producto: contiene
          ListaOrdenes "1..*" *-- "1" Orden: contiene
-         Mesa "1" -- "1" Cliente: tiene >
+         Mesa "1" -- "1" Persona: tiene >
          Orden "1" -- "1" Mesa: pide <
          SistemaImpl "1" -- ListaOrdenes: posee <
          SistemaImpl "1" -- "1" ListaTrabajador: posee <
          SistemaImpl "1" -- "1" ListaMesas: posee <
          SistemaImpl "1" -- "1" Inventario: posee <
          Sistema "1" <|.. "1" SistemaImpl: implementa
+         Persona  <|--  Cliente
+         Persona <|-- Trabajador
          }
          @enduml

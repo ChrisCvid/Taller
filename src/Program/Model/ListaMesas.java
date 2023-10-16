@@ -1,14 +1,14 @@
-package Model;
+package Program.Model;
 
 public class ListaMesas {
  Mesa[] listaMesas;
  int max;
- int min;
+ int min = 0;
 
-    public ListaMesas(Mesa[] listaMesas , int max , int min) {
-        this.listaMesas = listaMesas;
+ int actual = 0;
+
+    public ListaMesas(int max) {
         this.max = max;
-        this.min = min;
     }
 
     public Mesa[] getListaMesas() {
@@ -35,18 +35,19 @@ public class ListaMesas {
         this.min = min;
     }
 
+    public int getActual() {
+        return actual;
+    }
+
+    public void setActual(int actual) {
+        this.actual = actual;
+    }
+
     public void BuscarMesa(){
 
     }
-    /*   -Mesas[] ListaMesas
-          -max: int
-          -actual: int
-          --
-          +ListaMesas():
-          +getMax(): int
-          +getActual(): int
-          +getCliente(): String
-          +setActual(): int
-          +setCliente(): String
-          +buscarMesa(): void*/
+
+    public void agregarMesa(){
+
+    }
 }

@@ -1,4 +1,4 @@
-package Model;
+package Program.Model;
 
 import edu.princeton.cs.stdlib.StdIn;
 import edu.princeton.cs.stdlib.StdOut;
