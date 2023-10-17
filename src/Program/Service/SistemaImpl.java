@@ -14,19 +14,21 @@ public class SistemaImpl implements Sistema {
     @Override
     public String coordinarMesas() {
         listaMesas.agregarMesa (listaMesas);
-        StdOut.println("1. buscar mesa\n" +"2. agregar cliente a una mesa:\n"+ "ingrese opcion deseada: ");
-switch (StdIn.readInt ()){
-    case 1:
-        StdOut.println ("ingrese numero de la mesa");
-        int numero=StdIn.readInt ();
-        listaMesas.BuscarMesa (listaMesas,numero);
-        break;
-    case 2:
-        listaMesas.agregarCliente (listaMesas);
-        break;
-    case 3:
-        listaMesas.desplegarMesa ();
-        break;
+        StdOut.println ("1. buscar mesa\n" + "2. agregar cliente a una mesa:\n" + "ingrese opcion deseada: ");
+        switch (StdIn.readInt ()) {
+            case 1:
+                StdOut.println ("ingrese numero de la mesa");
+                int numero = StdIn.readInt ();
+                listaMesas.BuscarMesa (listaMesas , numero);
+                break;
+            case 2:
+                listaMesas.agregarCliente (listaMesas);
+                break;
+            case 3:
+                listaMesas.desplegarMesa ();
+                break;
+            default:
+                StdOut.println ("el valor ingresado no corresponde al formato requerido, por favor reintente");
         }
         return null;
     }
@@ -42,12 +44,17 @@ switch (StdIn.readInt ()){
                 inventario.ingresarProducto (inventario);
                 break;
             case 2:
-              inventario.ActualizarProducto (inventario);
+                inventario.ActualizarProducto (inventario);
                 break;
             case 3:
-                StdOut.println("ingrese producto desea eliminar:");
-              inventario.desplegarInventario ();
+                inventario.eliminarProducto (inventario);
+
                 break;
+            case 4:
+                inventario.desplegarInventario ();
+                break;
+            default:
+                StdOut.println ("el valor ingresado no corresponde al formato requerido, por favor reintente");
         }
         return null;
     }

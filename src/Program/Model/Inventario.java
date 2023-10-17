@@ -82,6 +82,7 @@ public class Inventario {
                 this.inventario[i].setCategoria (StdIn.readString ());
                 StdOut.println ("ingrese Stock");
                 this.inventario[i].setStock (StdIn.readInt ());
+                return;
             }else{
                 StdOut.print ("el producto ingresado no se encuentra en el inventario");
             }
@@ -89,7 +90,17 @@ public class Inventario {
 
 
     }
-    public void eliminarProducto(Producto producto){
+    public void eliminarProducto(Inventario inventario){
+        StdOut.println ("ingrese nombre de producto a eliminar: ");
+        String productoEliminar= StdIn.readString ();
+        for (int i =0;i<inventario.inventario.length;i++){
+            if(this.inventario[i].getNombreProducto ().equals (productoEliminar)){
+                this.inventario[i].setNombreProducto ("");
+                this.inventario[i].setStock (0);
+                this.inventario[i].setCategoria ("");
+                this.inventario[i].setPrecio (0);
+            }
+        }
 
     }
 
