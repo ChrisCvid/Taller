@@ -7,7 +7,6 @@
     <list default="true" id="5895e930-0544-4153-9221-ba283a44ffc2" name="Changes" comment="Model">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Program/Model/Inventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/Model/Inventario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/Service/SistemaImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/Service/SistemaImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697562140864</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Model">
+      <option name="closed" value="true" />
+      <created>1697563053434</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1697563053434</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

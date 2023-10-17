@@ -83,9 +83,8 @@ public class Inventario {
                 StdOut.println ("ingrese Stock");
                 this.inventario[i].setStock (StdIn.readInt ());
                 return;
-            }else{
-                StdOut.print ("el producto ingresado no se encuentra en el inventario");
             }
+
         }
 
 
