@@ -37,7 +37,7 @@ public class SistemaImpl implements Sistema {
     public String gestionarInventario() {
         inventario.crearInventario (inventario);
         StdOut.print(
-                "1. agregar Producto:\n" + "2. eliminar producto:\n" + "ingrese opcion deseada: ");
+                "1. agregar Producto:\n" + "2. actualizar producto:\n" + "3. eliminar producto:\n" + "ingrese opcion deseada: ");
         int respuestaGestInv = StdIn.readInt();
         switch (respuestaGestInv) {
             case 1:
@@ -48,7 +48,6 @@ public class SistemaImpl implements Sistema {
                 break;
             case 3:
                 inventario.eliminarProducto (inventario);
-
                 break;
             case 4:
                 inventario.desplegarInventario ();

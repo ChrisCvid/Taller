@@ -94,10 +94,8 @@ public class Inventario {
         String productoEliminar= StdIn.readString ();
         for (int i =0;i<inventario.inventario.length;i++){
             if(this.inventario[i].getNombreProducto ().equals (productoEliminar)){
-                this.inventario[i].setNombreProducto ("");
-                this.inventario[i].setStock (0);
-                this.inventario[i].setCategoria ("");
-                this.inventario[i].setPrecio (0);
+                Producto producto  =new Producto ("",0,"",0);
+                this.inventario[i]=producto;
             }
         }
 
