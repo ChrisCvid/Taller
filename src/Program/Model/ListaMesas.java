@@ -1,8 +1,11 @@
 package Program.Model;
 
+import edu.princeton.cs.stdlib.StdIn;
+import edu.princeton.cs.stdlib.StdOut;
+
 public class ListaMesas {
  Mesa[] listaMesas;
- int max;
+ int max=18;
  int min = 0;
 
  int actual = 0;
@@ -43,11 +46,26 @@ public class ListaMesas {
         this.actual = actual;
     }
 
+    public void addMesa(Mesa mesa){
+        for(int i=0;i<listaMesas.length;i++){
+            if (this.listaMesas[i]==null){
+                this.listaMesas[i]= mesa;
+            }
+        }
+    }
     public void BuscarMesa(){
 
     }
 
-    public void agregarMesa(){
+    public void agregarMesa(ListaMesas listaMesas){
+              StdOut.print ("ingrese numero de mesa");
+              int numeroDeMesa=StdIn.readInt ();
+              StdOut.print ("ingrese disponibilidad de mesa");
+              boolean estadoDeMesa=StdIn.readBoolean ();
+              StdOut.print ("ingrese nombre del cliente");
+              String NombreCliente=StdIn.readString ();
+              Mesa mesa =new Mesa (numeroDeMesa,estadoDeMesa,NombreCliente);
+              addMesa (mesa);
 
     }
 }

@@ -34,15 +34,5 @@ public class Mesa {
     public void setCliente(String cliente) {
         this.cliente = cliente;
     }
-/*   -numero: int
-          -disponibilidad: boolean
-          -cliente: String
-          --
-          +Mesa()
-          +getNumero(): int
-          +getDisponibilidad(): boolean
-          +setNumero(): int
-          +setDisponibilidad(): boolean
 
-          */
 }

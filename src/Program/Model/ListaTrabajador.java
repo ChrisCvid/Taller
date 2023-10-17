@@ -36,13 +36,3 @@ int min;
         return tipoCeContrato;
     }
     }
-    /*    -trabajador[] ListaTrabajador
-          -max: int
-          -actual: int
-          --
-          +ListaTrabajador()
-          +getMax(): int
-          +getActual(): int
-          +renovar(): boolean
-          +eliminarTrabajador(): void
-          +cambiarContrato(): String*/

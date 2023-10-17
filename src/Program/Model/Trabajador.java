@@ -27,16 +27,5 @@ public class Trabajador extends Persona {
     public void setFechaContratacion(String fechaContratacion) {
         this.fechaContratacion = fechaContratacion;
     }
-/*-nombre: String
-          -edad: int
-          -tipoContrato: String
-          -fechaContratacion: String
-          --
-                  +Trabajador()
-          +getEdad(): int
-          +getTipoContrato(): String
-          +getFechaContratacion(): String
-          +setEdad(): int
-          +setTipoContrato(): String
-          +setFechaContratacion(): String*/
+
 }

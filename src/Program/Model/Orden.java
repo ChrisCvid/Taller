@@ -40,18 +40,4 @@ public class Orden {
         int Total=0;
         return Total;
     }
-    /* -totalPedido: int
-          -trabajador: String
-          -numeroMesa: int
-          -Producto[] ListaPedido
-          -max: int
-          -actual: int
-          --
-                  +Orden()
-          +getTotalPedido(): int
-          +getTrabajador(): String
-          +getNumeroMesa(): int
-          +getMax(): int
-          +getActual(): int
-          +calcularTotal(): int*/
 }

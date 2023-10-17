@@ -39,14 +39,4 @@ public class ListaOrdenes {
         boolean pedirCuenta = false;
         return pedirCuenta;
     }
-    /*       -Orden[] ListaOrdenes
-          -max: int
-          -actual: int
-          --
-          +ListaOrdenes()
-          +getMax(): int
-          +getActual(): int
-          +generarResumen(): void
-          +buscarOrden(): int
-          +pedirCuenta(): boolean */
 }

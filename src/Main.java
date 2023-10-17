@@ -1,3 +1,4 @@
+import Program.Model.ListaMesas;
 import edu.princeton.cs.stdlib.*;
 
 import Program.Service.Sistema;

@@ -56,16 +56,4 @@ public class Inventario {
     public void eliminarProducto(Producto producto){
 
     }
-    /* -Producto[] inventario
-          -cantMaxima: int
-          -cantActual: int
-          --
-                  +Inventario()
-          +getCantMaxima(): int
-          +getCantActual(): int
-          +setCantMaxima(): int
-          +setCantActual(): int
-          +ingresarProducto(Producto producto)
-          +actualizarProducto(Producto producto)
-          +eliminarProducto(Producto producto)*/
 }
