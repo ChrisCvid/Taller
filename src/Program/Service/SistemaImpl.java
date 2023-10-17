@@ -24,12 +24,7 @@ switch (StdIn.readInt ()){
         }
         else{StdOut.print ("si hay mesa");}
         break;
-}
-
-
-
-
-
+        }
         return null;
     }
 
