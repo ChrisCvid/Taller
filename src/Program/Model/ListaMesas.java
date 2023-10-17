@@ -96,6 +96,7 @@ public class ListaMesas {
 
     }
     public void desplegarMesa(){
+        StdOut.println("Disp/Nombre/N. Mesa/Edad");
         for(int i=0;i< listaMesas.length ; i++){
                 StdOut.print (listaMesas[i].isDisponibilidad()+" "+listaMesas[i].getCliente()+" "+listaMesas[i].getNumero()+" "+listaMesas[i].getEdadCliente ()+"\n");
             }

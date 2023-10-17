@@ -1,8 +1,6 @@
 package Program.Service;
 
-import Program.Model.Inventario;
-import Program.Model.ListaMesas;
-import Program.Model.Mesa;
+import Program.Model.*;
 import edu.princeton.cs.stdlib.StdIn;
 import edu.princeton.cs.stdlib.StdOut;
 
@@ -10,11 +8,12 @@ public class SistemaImpl implements Sistema {
 
     ListaMesas listaMesas = new ListaMesas (18);
     Inventario inventario =new Inventario (100);
+    ListaTrabajador listaTrabajador = new ListaTrabajador(40);
 
     @Override
     public String coordinarMesas() {
         listaMesas.agregarMesa (listaMesas);
-        StdOut.println ("1. buscar mesa\n" + "2. agregar cliente a una mesa:\n" + "ingrese opcion deseada: ");
+        StdOut.println ("1. buscar mesa\n" + "2. agregar cliente a una mesa:\n" + "3. desplegar lista mesas:  \n"+ "ingrese opcion deseada: ");
         switch (StdIn.readInt ()) {
             case 1:
                 StdOut.println ("ingrese numero de la mesa");
@@ -60,10 +59,31 @@ public class SistemaImpl implements Sistema {
 
     @Override
     public String administrarTrabajadores() {
-        StdOut.println("Administrar trabajadores");
-
+        listaTrabajador.crearListraTrabajador(listaTrabajador);
+        StdOut.println ("1. Agregar Trabajador\n" + "2. Renovar contrato:\n" + "3. Otorgar contrato indefinido:  \n" + "4. Finalizar contrato \n" + "5. Desplegar trabajadores \n" + "Ingrese la opcion deseada: ");
+        int respuestaAdmiTrabajadores = StdIn.readInt();
+        switch (respuestaAdmiTrabajadores) {
+            case 1:
+                listaTrabajador.agregarTrabajador(listaTrabajador);
+                break;
+            case 2:
+                listaTrabajador.renovarContrato(listaTrabajador);
+                break;
+            case 3:
+                listaTrabajador.otorgarContratoIndefinido(listaTrabajador);
+                break;
+            case 4:
+                listaTrabajador.finalizarContrato(listaTrabajador);
+                break;
+            case 5:
+                listaTrabajador.desplegarTrabajadores();
+                break;
+            default:
+                StdOut.println ("el valor ingresado no corresponde al formato requerido, por favor reintente");
+        }
         return null;
     }
+
 
     @Override
     public String procesarOrden() {

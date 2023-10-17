@@ -43,7 +43,6 @@ public class Inventario {
             Producto producto  =new Producto ("",0,"",0);
             addProducto (producto);
         }
-
     }
     public void ingresarProducto(Inventario inventario){
         StdOut.print ("ingrese nombre del producto");
@@ -61,7 +60,6 @@ public class Inventario {
                 break;
             }
         }
-
     }
     public void addProducto(Producto producto){
         for(int i=0;i< inventario.length;i++){
@@ -86,8 +84,6 @@ public class Inventario {
             }
 
         }
-
-
     }
     public void eliminarProducto(Inventario inventario){
         StdOut.println ("ingrese nombre de producto a eliminar: ");
@@ -98,7 +94,6 @@ public class Inventario {
                 this.inventario[i]=producto;
             }
         }
-
     }
 
     public void desplegarInventario(){
