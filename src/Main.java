@@ -5,6 +5,7 @@ import Program.Service.Sistema;
 import Program.Util.Instalador;
 
 public class Main {
+
     public static void main(String[] args) {
         Sistema sistemaDelNegocio = instalarSistema();
         menuDelSistemaa(sistemaDelNegocio);

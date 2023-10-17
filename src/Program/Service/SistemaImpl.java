@@ -7,13 +7,25 @@ import edu.princeton.cs.stdlib.StdOut;
 
 public class SistemaImpl implements Sistema {
 
-    ListaMesas listaMesas =new ListaMesas (18);
+    ListaMesas listaMesas = new ListaMesas (18);
 
     @Override
     public String coordinarMesas() {
 
-        StdOut.println(" \"1. agregar mesa:\n" +"2. desocupar mesa\n"+ "ingrese opcion deseada: ");
-        listaMesas.agregarMesa ();
+        StdOut.println(" \"1. agregar mesa:\n" +"2. buscar mesa\n"+ "ingrese opcion deseada: ");
+
+switch (StdIn.readInt ()){
+    case 1:
+        listaMesas.agregarMesa (listaMesas);
+        break;
+    case 2:
+        if(listaMesas.BuscarMesa(listaMesas)==-1){
+         StdOut.println ("la mesa no se encontro");
+        }
+        else{StdOut.print ("si hay mesa");}
+        break;
+}
+
 
 
 

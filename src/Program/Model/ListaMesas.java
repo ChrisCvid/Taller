@@ -12,6 +12,7 @@ public class ListaMesas {
 
     public ListaMesas(int max) {
         this.max = max;
+        this.listaMesas=new Mesa[max];
     }
 
     public Mesa[] getListaMesas() {
@@ -50,14 +51,21 @@ public class ListaMesas {
         for(int i=0;i<listaMesas.length;i++){
             if (this.listaMesas[i]==null){
                 this.listaMesas[i]= mesa;
+                return;
             }
         }
     }
-    public void BuscarMesa(){
-
+    public int BuscarMesa(ListaMesas Listamesa){
+    int numero=StdIn.readInt ();
+        for (int i=0;i < this.listaMesas.length;i++){
+        if(this.listaMesas[i] != null&& listaMesas[i].getNumero ()==numero){
+            return i;
+            }
+        }
+        return -1;
     }
 
-    public void agregarMesa(){
+    public void agregarMesa(ListaMesas listaMesas){
               StdOut.print ("ingrese numero de mesa");
               int numeroDeMesa=StdIn.readInt ();
               StdOut.print ("ingrese disponibilidad de mesa");
