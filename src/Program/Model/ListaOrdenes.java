@@ -1,9 +1,9 @@
 package Program.Model;
 
 public class ListaOrdenes {
-    Orden[] ListaOrdenes;
-    int min;
-    int max;
+    private Orden[] ListaOrdenes;
+    private int min;
+    private int max;
 
 
 

@@ -2,8 +2,8 @@ package Program.Model;
 
 public class Trabajador extends Persona {
 
-    String tipoContrato;
-    String fechaContratacion;
+    private String tipoContrato;
+    private String fechaContratacion;
 
 
     public Trabajador(String nombre, int edad, String tipoContrato, String fechaContratacion) {

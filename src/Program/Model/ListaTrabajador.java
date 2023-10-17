@@ -1,9 +1,9 @@
 package Program.Model;
 
 public class ListaTrabajador {
-    Trabajador[] listaTrabajador;
-int max;
-int min;
+    private Trabajador[] listaTrabajador;
+    private int max;
+    private int min;
 
     public ListaTrabajador(Trabajador[] listaTrabajador , int max , int min) {
         this.listaTrabajador = listaTrabajador;

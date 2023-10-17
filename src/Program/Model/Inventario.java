@@ -4,9 +4,9 @@ import edu.princeton.cs.stdlib.StdIn;
 import edu.princeton.cs.stdlib.StdOut;
 
 public class Inventario {
-    Producto[] inventario;
-    int cantidadMaxima =100;
-    int cantidadMinima= 1;
+    private Producto[] inventario;
+    private int cantidadMaxima =100;
+    private int cantidadMinima= 1;
 
     public Inventario(Producto[] inventario , int cantidadMaxima , int cantidadMinima) {
         this.inventario = inventario;

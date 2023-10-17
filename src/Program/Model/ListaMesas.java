@@ -4,9 +4,9 @@ import edu.princeton.cs.stdlib.StdIn;
 import edu.princeton.cs.stdlib.StdOut;
 
 public class ListaMesas {
- Mesa[] listaMesas;
- int max=18;
- int min = 0;
+ private Mesa[] listaMesas;
+ private int max=18;
+ private int min = 0;
 
  int actual = 0;
 

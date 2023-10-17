@@ -1,12 +1,12 @@
 package Program.Model;
 
 public class Orden {
-   int totalPedido;
-   String Trabajador;
-   int numeroMesa;
-   Producto[] listaPedido;
-   int max;
-   int min;
+   private int totalPedido;
+   private String Trabajador;
+   private int numeroMesa;
+   private Producto[] listaPedido;
+   private int max;
+   private int min;
 
     public Orden(int totalPedido , String trabajador , int numeroMesa , Producto[] listaPedido , int max , int min) {
         this.totalPedido = totalPedido;
