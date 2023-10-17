@@ -1,5 +1,6 @@
 package Program.Service;
 
+import Program.Model.Inventario;
 import Program.Model.ListaMesas;
 import Program.Model.Mesa;
 import edu.princeton.cs.stdlib.StdIn;
@@ -8,6 +9,7 @@ import edu.princeton.cs.stdlib.StdOut;
 public class SistemaImpl implements Sistema {
 
     ListaMesas listaMesas = new ListaMesas (18);
+    Inventario inventario =new Inventario (100);
 
     @Override
     public String coordinarMesas() {
@@ -31,16 +33,20 @@ switch (StdIn.readInt ()){
 
     @Override
     public String gestionarInventario() {
+        inventario.crearInventario (inventario);
         StdOut.print(
                 "1. agregar Producto:\n" + "2. eliminar producto:\n" + "ingrese opcion deseada: ");
         int respuestaGestInv = StdIn.readInt();
         switch (respuestaGestInv) {
             case 1:
-                StdOut.println("Ingrese producto que desea agregar");
+                inventario.ingresarProducto (inventario);
                 break;
             case 2:
+              inventario.ActualizarProducto (inventario);
+                break;
+            case 3:
                 StdOut.println("ingrese producto desea eliminar:");
-
+              inventario.desplegarInventario ();
                 break;
         }
         return null;

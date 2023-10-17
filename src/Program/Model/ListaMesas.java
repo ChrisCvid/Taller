@@ -80,7 +80,7 @@ public class ListaMesas {
         if(!BuscarMesa (listaMesas , numero)){;
         StdOut.print ("ingrese nombre del cliente");
         String cliente= StdIn.readString ();
-        StdOut.print ("ingrese nombre del cliente");
+        StdOut.print ("ingrese edad del cliente");
         int edadCliente=StdIn.readInt ();
         this.listaMesas[numero].setCliente (cliente);
         this.listaMesas[numero].setEdadCliente (edadCliente);
@@ -90,7 +90,7 @@ public class ListaMesas {
     }
 
     public void agregarMesa(ListaMesas listaMesas){
-              for (int i =0 ; i <= 17;i++){
+              for (int i =0 ; i <= listaMesas.listaMesas.length ;i++){
               Mesa mesa =new Mesa (i,false,null,0);
               addMesa (mesa);}
 
