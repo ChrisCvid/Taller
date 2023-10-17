@@ -11,18 +11,19 @@ public class SistemaImpl implements Sistema {
 
     @Override
     public String coordinarMesas() {
-
-        StdOut.println(" \"1. agregar mesa:\n" +"2. buscar mesa\n"+ "ingrese opcion deseada: ");
-
+    listaMesas.agregarMesa (listaMesas);
+        StdOut.println("1. buscar mesa\n" +"2. agregar cliente a una mesa:\n"+ "ingrese opcion deseada: ");
 switch (StdIn.readInt ()){
     case 1:
-        listaMesas.agregarMesa (listaMesas);
+        int numero=StdIn.readInt ();
+        if(listaMesas.BuscarMesa(listaMesas,numero)==-1){
+            StdOut.println ("esta disponible");
+        } else {StdOut.print ("la mesa se encuentra ocupada");}
         break;
     case 2:
-        if(listaMesas.BuscarMesa(listaMesas)==-1){
-         StdOut.println ("la mesa no se encontro");
-        }
-        else{StdOut.print ("si hay mesa");}
+    listaMesas.agregarCliente (listaMesas);
+
+
         break;
         }
         return null;

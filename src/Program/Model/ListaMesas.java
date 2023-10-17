@@ -55,25 +55,33 @@ public class ListaMesas {
             }
         }
     }
-    public int BuscarMesa(ListaMesas Listamesa){
-    int numero=StdIn.readInt ();
+    public int BuscarMesa(ListaMesas Listamesa,int numero){
         for (int i=0;i < this.listaMesas.length;i++){
-        if(this.listaMesas[i] != null&& listaMesas[i].getNumero ()==numero){
+        if(this.listaMesas[i] != null&& !listaMesas[ i ].isDisponibilidad ()){
             return i;
             }
         }
         return -1;
     }
+    public void agregarCliente(ListaMesas listaMesas){
+        StdOut.print ("ingrese numero de la mesa");
+        int numero=StdIn.readInt ();
+        if(BuscarMesa (listaMesas,numero)!=-1){;
+        StdOut.print ("ingrese nombre del cliente");
+        String cliente= StdIn.readString ();
+        this.listaMesas[numero].setCliente (cliente);
+        this.listaMesas[numero].setDisponibilidad (true);
+        }
+
+    }
 
     public void agregarMesa(ListaMesas listaMesas){
-              StdOut.print ("ingrese numero de mesa");
-              int numeroDeMesa=StdIn.readInt ();
-              StdOut.print ("ingrese disponibilidad de mesa");
-              boolean estadoDeMesa=StdIn.readBoolean ();
-              StdOut.print ("ingrese nombre del cliente");
-              String NombreCliente=StdIn.readString ();
+              for (int i =0 ; i <= 17;i++){
+              int numeroDeMesa=i;
+              boolean estadoDeMesa=false;
+              String NombreCliente=null;
               Mesa mesa =new Mesa (numeroDeMesa,estadoDeMesa,NombreCliente);
-              addMesa (mesa);
+              addMesa (mesa);}
 
     }
 }
