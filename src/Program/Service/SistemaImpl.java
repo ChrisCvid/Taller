@@ -13,7 +13,7 @@ public class SistemaImpl implements Sistema {
     public String coordinarMesas() {
 
         StdOut.println(" \"1. agregar mesa:\n" +"2. desocupar mesa\n"+ "ingrese opcion deseada: ");
-        this.listaMesas.agregarMesa (listaMesas);
+        listaMesas.agregarMesa ();
 
 
 

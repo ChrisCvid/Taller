@@ -57,7 +57,7 @@ public class ListaMesas {
 
     }
 
-    public void agregarMesa(ListaMesas listaMesas){
+    public void agregarMesa(){
               StdOut.print ("ingrese numero de mesa");
               int numeroDeMesa=StdIn.readInt ();
               StdOut.print ("ingrese disponibilidad de mesa");

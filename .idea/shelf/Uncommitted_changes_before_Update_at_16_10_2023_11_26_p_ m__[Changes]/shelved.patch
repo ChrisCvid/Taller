@@ -1,0 +1,84 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5895e930-0544-4153-9221-ba283a44ffc2\" name=\"Changes\" comment=\"Model\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/Clases/Cliente.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Model/Cliente.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Clases/Inventario.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Model/Inventario.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Clases/ListaMesas.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Model/ListaMesas.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Clases/ListaOrdenes.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Model/ListaOrdenes.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Clases/ListaTrabajador.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Model/ListaTrabajador.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Clases/Mesa.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Model/Mesa.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Clases/Orden.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Model/Orden.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Clases/Producto.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Model/Producto.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Clases/Trabajador.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Model/Trabajador.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Main.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"UML Class\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;ChrisCvid&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"4989e82b-79e8-4d10-8f3e-e3570f756408\" />\r\n        <option name=\"url\" value=\"https://github.com/ChrisCvid/Taller.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2W5M30hwPh8P4IOBJYiCZKHzSKQ\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"DefaultPlantUmlFileTemplate\": \"UML Class\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"jdk.selected.JAVA_MODULE\": \"corretto-18\",\r\n    \"last_opened_file_path\": \"C:/Users/gabri/Desktop/stdlib.jar\",\r\n    \"project.structure.last.edited\": \"Libraries\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"settings.editor.selected.configurable\": \"preferences.lookFeel\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"5895e930-0544-4153-9221-ba283a44ffc2\" name=\"Changes\" comment=\"\" />\r\n      <created>1696017785795</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1696017785795</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"modelo de dominio\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1696018047243</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1696018047243</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"modelo de clases\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1696629870560</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1696629870560</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"modelo de dominio\" />\r\n    <MESSAGE value=\"modelo de clases\" />\r\n    <MESSAGE value=\"Model\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Model\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 63d27a7f5221ab204a898daff3dfb7f2c10ca2b1)
++++ b/.idea/workspace.xml	(date 1697428568342)
+@@ -4,17 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="5895e930-0544-4153-9221-ba283a44ffc2" name="Changes" comment="Model">
+-      <change beforePath="$PROJECT_DIR$/src/Clases/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Cliente.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Clases/Inventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Inventario.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Clases/ListaMesas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ListaMesas.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Clases/ListaOrdenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ListaOrdenes.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Clases/ListaTrabajador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ListaTrabajador.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Clases/Mesa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Mesa.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Clases/Orden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Orden.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Clases/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Producto.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Clases/Trabajador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Trabajador.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
++    <list default="true" id="5895e930-0544-4153-9221-ba283a44ffc2" name="Changes" comment="a">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -45,9 +36,6 @@
+         <option name="url" value="https://github.com/ChrisCvid/Taller.git" />
+       </UrlAndAccount>
+     </option>
+-  </component>
+-  <component name="MarkdownSettingsMigration">
+-    <option name="stateVersion" value="1" />
+   </component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 6
+@@ -58,20 +46,20 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "DefaultPlantUmlFileTemplate": "UML Class",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "jdk.selected.JAVA_MODULE": "corretto-18",
+-    "last_opened_file_path": "C:/Users/gabri/Desktop/stdlib.jar",
+-    "project.structure.last.edited": "Libraries",
+-    "project.structure.proportion": "0.15",
+-    "project.structure.side.proportion": "0.2",
+-    "settings.editor.selected.configurable": "preferences.lookFeel"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-18&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/chris/Downloads/stdlib.jar&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -114,7 +102,6 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="modelo de dominio" />
+     <MESSAGE value="modelo de clases" />
+-    <MESSAGE value="Model" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Model" />
++    <option name="LAST_COMMIT_MESSAGE" value="modelo de clases" />
+   </component>
+ </project>
+\ No newline at end of file
