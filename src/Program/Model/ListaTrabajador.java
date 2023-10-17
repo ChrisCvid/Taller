@@ -5,10 +5,9 @@ public class ListaTrabajador {
     private int max;
     private int min;
 
-    public ListaTrabajador(Trabajador[] listaTrabajador , int max , int min) {
-        this.listaTrabajador = listaTrabajador;
+    public ListaTrabajador(int max) {
         this.max = max;
-        this.min = min;
+        this.listaTrabajador = new Trabajador[max];
     }
 
     public int getMax() {
