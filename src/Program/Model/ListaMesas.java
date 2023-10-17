@@ -51,25 +51,39 @@ public class ListaMesas {
         for(int i=0;i<listaMesas.length;i++){
             if (this.listaMesas[i]==null){
                 this.listaMesas[i]= mesa;
+                StdOut.print (listaMesas[i].isDisponibilidad ()+" "+listaMesas[i].getEdadCliente ()+" "+listaMesas[i].getCliente ()+" "+listaMesas[i].getNumero ()+"\n");
                 return;
             }
         }
     }
-    public int BuscarMesa(ListaMesas Listamesa,int numero){
-        for (int i=0;i < this.listaMesas.length;i++){
+    public boolean BuscarMesa(ListaMesas Listamesa,int numero){
+        if(!listaMesas[ numero ].isDisponibilidad ()){
+            StdOut.println ("la mesa esta disponible");
+            return false;
+        }else{StdOut.println ("la mesa esta ocupada");
+        return true;
+    }
+        /* for (int i=0;i < this.listaMesas.length;i++){
         if(this.listaMesas[i] != null&& !listaMesas[ i ].isDisponibilidad ()){
+            StdOut.println (" mesa disponible");
             return i;
+
+            }else{StdOut.println ("no disponible");
+
+            return -1;
             }
-        }
-        return -1;
+        }*/
     }
     public void agregarCliente(ListaMesas listaMesas){
-        StdOut.print ("ingrese numero de la mesa");
+        StdOut.println ("ingrese numero de la mesa");
         int numero=StdIn.readInt ();
-        if(BuscarMesa (listaMesas,numero)!=-1){;
+        if(!BuscarMesa (listaMesas , numero)){;
         StdOut.print ("ingrese nombre del cliente");
         String cliente= StdIn.readString ();
+        StdOut.print ("ingrese nombre del cliente");
+        int edadCliente=StdIn.readInt ();
         this.listaMesas[numero].setCliente (cliente);
+        this.listaMesas[numero].setEdadCliente (edadCliente);
         this.listaMesas[numero].setDisponibilidad (true);
         }
 
@@ -77,11 +91,13 @@ public class ListaMesas {
 
     public void agregarMesa(ListaMesas listaMesas){
               for (int i =0 ; i <= 17;i++){
-              int numeroDeMesa=i;
-              boolean estadoDeMesa=false;
-              String NombreCliente=null;
-              Mesa mesa =new Mesa (numeroDeMesa,estadoDeMesa,NombreCliente);
+              Mesa mesa =new Mesa (i,false,null,0);
               addMesa (mesa);}
 
+    }
+    public void desplegarMesa(){
+        for(int i=0;i< listaMesas.length ; i++){
+                StdOut.print (listaMesas[i].isDisponibilidad()+" "+listaMesas[i].getCliente()+" "+listaMesas[i].getNumero()+" "+listaMesas[i].getEdadCliente ()+"\n");
+            }
     }
 }
