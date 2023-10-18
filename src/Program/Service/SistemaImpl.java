@@ -10,6 +10,8 @@ public class SistemaImpl implements Sistema {
     Inventario inventario =new Inventario (100);
     ListaTrabajador listaTrabajador = new ListaTrabajador(40);
 
+    ListaOrdenes listaOrdenes = new ListaOrdenes(30);
+
     @Override
     public String coordinarMesas() {
         listaMesas.agregarMesa (listaMesas);

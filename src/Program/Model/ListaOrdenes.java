@@ -1,16 +1,21 @@
 package Program.Model;
 
+import Program.Model.Orden;
+
 public class ListaOrdenes {
-    private Orden[] ListaOrdenes;
+
+    ListaPedido listaPedido = new ListaPedido(40);
+    private Orden[] listaOrdenes;
     private int min;
     private int max;
 
 
 
-    public ListaOrdenes(Orden[] listaOrdenes , int min , int max) {
-        ListaOrdenes = listaOrdenes;
-        this.min = min;
+
+
+    public ListaOrdenes(int max) {
         this.max = max;
+        this.listaOrdenes = new Orden[max];
 
     }
     public int getMin() {
@@ -39,4 +44,6 @@ public class ListaOrdenes {
         boolean pedirCuenta = false;
         return pedirCuenta;
     }
+
+
 }

@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5895e930-0544-4153-9221-ba283a44ffc2" name="Changes" comment="Model">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_10_2023_11_26_p__m___Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_10_2023_11_26_p__m___Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_10_2023_12_45_a__m___Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_10_2023_12_45_a__m___Changes_.xml" afterDir="false" />
+    <list default="true" id="5895e930-0544-4153-9221-ba283a44ffc2" name="Changes" comment="Sistema 2.0">
+      <change afterPath="$PROJECT_DIR$/src/Program/Model/ListaPedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/Model/Inventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/Model/Inventario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/Model/ListaMesas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/Model/ListaMesas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/Model/ListaTrabajador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/Model/ListaTrabajador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/Model/ListaOrdenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/Model/ListaOrdenes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/Model/Orden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/Model/Orden.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Program/Service/SistemaImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/Service/SistemaImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697563877134</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Sistema 2.0">
+      <created>1697570307247</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1697570307247</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,6 +228,7 @@
     <MESSAGE value="modelo de dominio" />
     <MESSAGE value="modelo de clases" />
     <MESSAGE value="Model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Model" />
+    <MESSAGE value="Sistema 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sistema 2.0" />
   </component>
 </project>
