@@ -1,21 +1,35 @@
 import Program.Model.*;
-import edu.princeton.cs.stdlib.*;
+import ucn.*;
 
 import Program.Service.Sistema;
 import Program.Util.Instalador;
 
 public class Main {
 
+    /**
+     * Método principal que inicia la aplicación.
+     *
+     */
     public static void main(String[] args) {
         Sistema sistemaDelNegocio = instalarSistema();
         menuDelSistemaa(sistemaDelNegocio);
     }
 
+    /**
+     * Instala el sistema del negocio llamando al instalador.
+     *
+     * @return La instancia del sistema instalado.
+     */
     private static Sistema instalarSistema(){
         Instalador instalador = new Instalador();
         return instalador.inyectarSistema();
     }
 
+    /**
+     * Muestra un menú y gestiona las opciones del sistema.
+     *
+     * @param sistemaDelNegocio La instancia del sistema del negocio.
+     */
     private static void menuDelSistemaa(Sistema sistemaDelNegocio){
         sistemaDelNegocio.crearListas ();
         boolean menuActivo = true;
@@ -51,24 +65,43 @@ public class Main {
         }
     }
 
+    /**
+     * Ejecuta la función uno del sistema del negocio.
+     *
+     * @param sistemaDelNegocio La instancia del sistema del negocio.
+     */
     private static void funcionUno(Sistema sistemaDelNegocio){
         String respuestaSistema = sistemaDelNegocio.coordinarMesas();
 
     }
 
+    /**
+     * Ejecuta la función dos del sistema del negocio.
+     *
+     * @param sistemaDelNegocio La instancia del sistema del negocio.
+     */
     private static void funcionDos(Sistema sistemaDelNegocio){
         String respuestaSistema = sistemaDelNegocio.gestionarInventario();
     }
 
+    /**
+     * Ejecuta la función tres del sistema del negocio.
+     *
+     * @param sistemaDelNegocio La instancia del sistema del negocio.
+     */
     private static void funcionTres(Sistema sistemaDelNegocio){
         String respuestaSistema = sistemaDelNegocio.administrarTrabajadores();
     }
 
+    /**
+     * Ejecuta la función cuatro del sistema del negocio.
+     *
+     * @param sistemaDelNegocio La instancia del sistema del negocio.
+     */
     private static void funcionCuatro(Sistema sistemaDelNegocio){
         String respuestaSistema = sistemaDelNegocio.procesarOrden();
 
     }
 }
 
-/*Ni puta idea de como voy a implementar todo eso ඞඞඞ */
 
