@@ -101,4 +101,14 @@ public class Inventario {
           StdOut.println (inventario[i].getNombreProducto ()+" "+inventario[i].getPrecio ()+" "+inventario[i].getCategoria ()+" "+inventario[i].getStock ()+"\n");
         }
     }
+
+    public Producto buscarProducto(String Nombreproducto , int cantidadProducto){
+        for (int i =0 ; i <= inventario.length ;i++){
+            if(inventario[i].getNombreProducto ().equals(Nombreproducto)&&inventario[i].getStock ()>=cantidadProducto){
+                return inventario[i];
+            }
+        }
+        return null;
+    }
 }
+

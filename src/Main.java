@@ -1,4 +1,4 @@
-import Program.Model.ListaMesas;
+import Program.Model.*;
 import edu.princeton.cs.stdlib.*;
 
 import Program.Service.Sistema;
@@ -17,6 +17,7 @@ public class Main {
     }
 
     private static void menuDelSistemaa(Sistema sistemaDelNegocio){
+        sistemaDelNegocio.crearListas ();
         boolean menuActivo = true;
 
         while (menuActivo){
