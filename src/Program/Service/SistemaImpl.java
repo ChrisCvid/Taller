@@ -19,8 +19,6 @@ public class SistemaImpl implements Sistema {
         inventario.crearInventario (inventario);
         listaTrabajador.crearListaTrabajador (listaTrabajador);
         listaOrdenes.crearListaOrdenes (listaOrdenes);
-
-
         return null;
     }
 
